@@ -1,0 +1,17 @@
+[Unit]
+Description=SMS daemon for Gammu
+Documentation=man:gammu-smsd(1)
+After=mysql.service postgresql.service
+
+[Service]
+EnvironmentFile=-/etc/sysconfig/gammu-smsd
+# Run daemon as root user
+ExecReload=/bin/kill -HUP $MAINPID
+ExecStopPost=/bin/rm -f /var/run/gammu-smsd.pid
+Type=forking
+PIDFile=/var/run/gammu-smsd.pid
+ExecStartPre=/bin/sleep 30
+ExecStart=/usr/bin/gammu-smsd --config /etc/gammu-smsdrc --pid /var/run/gammu-smsd.pid --daemon --user pi --group pi
+
+[Install]
+WantedBy=multi-user.target
