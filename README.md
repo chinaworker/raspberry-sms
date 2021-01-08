@@ -1,6 +1,6 @@
 # 树莓派+EC20短信转发到企业微信
 
-#一、材料准备：
+一、材料准备：
 1.树莓派
 2.4G模块 （比如ec20，ec20兼容性强，推荐）
 
@@ -17,7 +17,7 @@ https://work.weixin.qq.com/wework_admin/register_wx
 
    AgentId和Secret：“应用管理”->点击对应应用程序进入
   
-#二、部署过程
+二、部署过程
 
 1.把“pushToWecha.py”和“smsForward.py”放入“/home/pi/tools”下（注意用户、组和权限）
 2.修改“pushToWechat.py” 中的
