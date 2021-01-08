@@ -45,6 +45,7 @@ https://work.weixin.qq.com/wework_admin/register_wx
   
   4.2配置gammu
   sudo gammu-config
+  
                                                                       │
      │ Configuration file "/root/.gammurc" exists.                        │
      │ Do you still wish to configure Gammu?                              │
