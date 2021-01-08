@@ -217,6 +217,7 @@ ExecStartPre：树莓派启动后，EC20设备会初始化，为了避免gammu-s
 通过以下命令开启开机自启动：
 
      sudo systemctl enable gammu-smsd
+     
  gammu-smsd的启停命令：
  
      sudo systemctl start gammu-smsd
