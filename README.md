@@ -28,23 +28,31 @@ https://work.weixin.qq.com/wework_admin/register_wx
     secret  = 'replace' #替换自己的密钥
     #应用ID
     agentID = 'replace'#替换自己的应用ID
-    
- 3.把sim卡插入EC20模块，把模块插入树莓派的USB。使用以下命令可以看到有 ttyUSB0~3四个设备，应该对应EC20不同的口，比如短信口或者数据口：
-  pi@raspberrypi:~ $ lsusb
-  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
-  Bus 001 Device 003: ID 2c7c:0125 Quectel Wireless Solutions Co., Ltd. EC25 LTE modem
-  Bus 001 Device 002: ID 2109:3431 VIA Labs, Inc. Hub
-  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+   
+   
+3.把sim卡插入EC20模块，把模块插入树莓派的USB。使用以下命令可以看到有 ttyUSB0~3四个设备，
+  应该对应EC20不同的口，比如短信口或者数据口：
+ 
+    pi@raspberrypi:~ $ lsusb
+    Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+    Bus 001 Device 003: ID 2c7c:0125 Quectel Wireless Solutions Co., Ltd. EC25 LTE modem
+    Bus 001 Device 002: ID 2109:3431 VIA Labs, Inc. Hub
+    Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
   
-  pi@raspberrypi:~ $ ls /dev/ttyUSB*
-  /dev/ttyUSB0  /dev/ttyUSB1  /dev/ttyUSB2  /dev/ttyUSB3
+    pi@raspberrypi:~ $ ls /dev/ttyUSB*
+    /dev/ttyUSB0  /dev/ttyUSB1  /dev/ttyUSB2  /dev/ttyUSB3
   
 4.安装和配置gammu
-  4.1安装gammu
-  sudo apt-get install gammu
   
-  4.2配置gammu
-  sudo gammu-config
+
+4.1安装gammu
+       
+       sudo apt-get install gammu
+  
+  
+ 4.2配置gammu
+  
+    sudo gammu-config
   
                                                                       │
      │ Configuration file "/root/.gammurc" exists.                        │
