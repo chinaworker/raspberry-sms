@@ -21,6 +21,9 @@ https://work.weixin.qq.com/wework_admin/register_wx
 
 1.把“pushToWecha.py”和“smsForward.py”放入“/home/pi/tools”下（注意用户、组和权限）
 2.修改“pushToWechat.py” 中的
+
+
+
    #--------------------获取企业微信配置信息--------------------
     #企业ID
     corpID  = 'replace' #替换自己的企业ID
