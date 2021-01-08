@@ -24,7 +24,6 @@ https://work.weixin.qq.com/wework_admin/register_wx
 
 
 
-   #--------------------获取企业微信配置信息--------------------
     #企业ID
     corpID  = 'replace' #替换自己的企业ID
     #应用密钥
