@@ -1,7 +1,17 @@
 # 树莓派+EC20短信转发到企业微信
 
 
+
+  一、材料准备：
+  
+     1.树莓派
+
+    2. 4G模块 （比如ec20，ec20兼容性强，推荐）
+    
+    
+
 #注册企业微信
+
 1.首先去这个链接注册企业微信
 https://work.weixin.qq.com/wework_admin/register_wx
 
