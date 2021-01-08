@@ -5,7 +5,7 @@
 2.4G模块 （比如ec20，ec20兼容性强，推荐）
 
 #注册企业微信
-1.首先去下面链接注册企业微信
+1.首先去这个链接注册企业微信
 https://work.weixin.qq.com/wework_admin/register_wx
 
 2.认证需要花钱，无需认证无需认证无需认证
