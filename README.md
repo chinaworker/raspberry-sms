@@ -140,7 +140,7 @@ https://work.weixin.qq.com/wework_admin/register_wx
 
      # Please configure this!
 
-     port = /dev/ttyUSB3
+     port = /dev/ttyUSB2
 
      #port = /dev/ec20
 
